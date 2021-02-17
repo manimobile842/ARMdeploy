@@ -15,7 +15,7 @@
             "value": ""
         },
         "serverFarmResourceGroup": {
-            "value": {resourceGroupName}
+            "value": "{resourceGroupName}"
         },
         "alwaysOn": {
             "value": false
