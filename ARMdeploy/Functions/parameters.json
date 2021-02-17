@@ -15,7 +15,7 @@
             "value": ""
         },
         "serverFarmResourceGroup": {
-            "value": "rg-functions-farm"
+            "value": ${{ parameters.resourceGroupName }}
         },
         "alwaysOn": {
             "value": false
