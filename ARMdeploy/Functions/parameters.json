@@ -15,7 +15,7 @@
             "value": ""
         },
         "serverFarmResourceGroup": {
-            "value": ${{ parameters.resourceGroupName }}
+            "value": {resourceGroupName}
         },
         "alwaysOn": {
             "value": false
