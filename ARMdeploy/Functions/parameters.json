@@ -12,7 +12,7 @@
             "value": "Central US"
         },
         "hostingPlanName": {
-            "value": "ASP-rgfunctions-plan" 
+            "value": null
         },
         "serverFarmResourceGroup": {
             "value": "rg-functions-farm"
