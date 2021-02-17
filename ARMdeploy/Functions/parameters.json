@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "38d0aa0f-17af-45f7-948f-747f3df8550d"
+        },
+        "name": {
+            "value": "productquote"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-rgfunctions-af3d" 
+        },
+        "serverFarmResourceGroup": {
+            "value": "rg-functions"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "storageAccountName": {
+            "value": "storageaccountrgfuna245"
+        },
+        "use32BitWorkerProcess": {
+            "value": false
+        },
+        "linuxFxVersion": {
+            "value": "dotnet|3.1"
+        },
+        "sku": {
+            "value": "Dynamic"
+        },
+        "skuCode": {
+            "value": "Y1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        }
+    }
+}
